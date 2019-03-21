@@ -2,7 +2,7 @@ server:
   port: 8093
 spring:
   application:
-    name: ingredient-service3
+    name: demo3
 eureka:
   client:
     service-url:
