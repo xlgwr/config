@@ -1,9 +1,10 @@
 server:
   port: 8091
 spring:
+  application:dd
 spring:
   application:
-    name: ingredient-service
+    name: testerr
 eureka:
   client:
     service-url:
