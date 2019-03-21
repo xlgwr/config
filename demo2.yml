@@ -1,0 +1,15 @@
+server:
+    port: 8888
+spring:
+    application:
+        name: demo2
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/xlgwr/config
+                    search-paths: config,myapp
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost1:8761/eureka
